@@ -1,3 +1,24 @@
+/*
+===============================================================================
+Contrôles de qualité
+===============================================================================
+Objectif du script :
+    Ce script effectue différents contrôles de qualité afin de vérifier la
+    cohérence, l’exactitude et la standardisation des données dans la couche
+    « silver ». Il inclut notamment des vérifications sur :
+        - Les clés primaires nulles ou dupliquées.
+        - Les espaces indésirables dans les champs de type chaîne de caractères.
+        - La standardisation et la cohérence des données.
+        - Les plages de dates invalides et les incohérences d’ordre chronologique.
+        - La cohérence des données entre champs liés.
+
+Notes d’utilisation :
+    - Exécuter ces contrôles après le chargement des données dans la couche Silver.
+    - Analyser et corriger toute anomalie détectée lors des contrôles.
+===============================================================================
+*/
+
+
 /* bronze.crm_cust_info */
 
 SELECT
